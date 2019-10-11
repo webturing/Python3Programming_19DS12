@@ -1,11 +1,8 @@
-# lec01 : Introduction & IO
+# lec02 :  IO / Selection
 ### by ZHAO Jing  [zj@wetburing.com]
 
-## Introduction of Python
 
-1. What is Python?
-2. What is Git/GitHub? [About Mr ZHAO?](!https://github.com/webturing/)
-3. 开发工具: Python
+## Review
 
 ## Useful resources:
 
@@ -14,24 +11,8 @@
 - 课程群
 - 菜鸟网站： https://www.runoob.com/python3/python3-tutorial.html
 - Python中文手册 :https://www.runoob.com/manual/pythontutorial3/docs/html
-## Python环境安装
-- Linux/Mac内置
-- Windows
-## Python工作模式:(IDLE)
-### 交互式：（类似于Matlab）
-- ex. 计算器
-- 测试表达式 中间计算结果
-### 程序式
-```
-n = 567
-c = n % 10
-b = (n // 10) % 10
-a = n // 100 % 10
-print(a, b, c)
-m = 100 * c + 10 * b + a
-print(m)
 
-```
+
 ## IO:
 ### Output:
 - print(exp)
@@ -51,12 +32,8 @@ print(m)
 - 整型int
 - 浮点型 float
 - 字符串
+- 列表 元组
 
-### Constant
-- 1 1L
-- 0.5   +0.21e+8
-- ‘a'  "abc"  '''b'''
-- #
 ### Variable  变量无需声明，且类型可以变化 
 ```
 x=3
@@ -71,11 +48,9 @@ x="hello"
 - 除  ```/```   精度除法 &&  // 商
 - 模 ```%``` 余数或者（*格式化输出*)
 - 幂  ```**```
+## IF
+- if
+- if else
+- if elif... else
 
-
-
-## Excise ：
-
-- 输出helloworld
-- 计算A+B
 

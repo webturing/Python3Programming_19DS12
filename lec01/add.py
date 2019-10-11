@@ -1,3 +1,3 @@
-s=input()
-s=int(s)
-print(s+s)
+s = input()
+s = int(s)
+print(s + s)
