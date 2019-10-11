@@ -1,4 +1,4 @@
-# lec02 :  IO / Selection
+﻿# lec02 :  IO / Selection
 ### by ZHAO Jing  [zj@wetburing.com]
 
 
@@ -53,4 +53,11 @@ x="hello"
 - if else
 - if elif... else
 
+## 比较运算符```> <  >= <= == !=```
+## 逻辑运算符 and not or
 
+##算法
+- 交换
+- 枚举
+- 冒泡
+- 数学方法
