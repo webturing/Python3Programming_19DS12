@@ -1,8 +1,8 @@
 s = input("Please input two integers").strip()
-#print(s)
-a,b = s.split()
-a,b = int(a),int(b)
+# print(s)
+a, b = s.split()
+a, b = int(a), int(b)
 if a > b:
-    print(b,a)
+    print(b, a)
 else:
-    print(a,b)
+    print(a, b)
