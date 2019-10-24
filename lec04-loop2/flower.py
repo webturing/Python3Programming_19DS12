@@ -1,4 +1,4 @@
-for n in range(100,1000):
+for n in range(100, 1000):
     c = n % 10
     b = (n // 10) % 10
     a = (n // 100)
@@ -7,5 +7,3 @@ for n in range(100,1000):
     # print('m=',m)
     if m == n:
         print(m)
-
-
