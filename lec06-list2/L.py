@@ -1,0 +1,5 @@
+a = list(map(int, input().strip().split()))
+x = int(input())
+a.append(x)
+a.sort()
+for e in a: print(e)
