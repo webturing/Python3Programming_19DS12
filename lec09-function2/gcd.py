@@ -1,11 +1,9 @@
-def gcd(a,b):
-    while b>0:
-        r=a%b
-        a=b
-        b=r
+def gcd(a, b):
+    while b > 0:
+        r = a % b
+        a = b
+        b = r
     return a
-        
 
 
-
-print(gcd(32,12))
+print(gcd(32, 12))

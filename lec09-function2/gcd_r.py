@@ -1,10 +1,8 @@
-def gcd(a,b):
-    if b==0:
+def gcd(a, b):
+    if b == 0:
         return a
     else:
-        return gcd(b,a%b)
-        
+        return gcd(b, a % b)
 
 
-
-print(gcd(32,12))
+print(gcd(32, 12))
