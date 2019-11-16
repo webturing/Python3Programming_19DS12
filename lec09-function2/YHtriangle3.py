@@ -12,4 +12,4 @@ def triangle(n):
         print("")
 
 
-triangle(5)
+triangle(15)
