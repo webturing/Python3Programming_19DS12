@@ -1,2 +1,3 @@
-with open("2.txt", "r") as inFile, open("4.txt", "w") as outFile:
-    outFile.write(inFile.read())
+with open("3.txt") as inFile, open("5.txt", "w") as outFile:
+    for line in inFile.readlines():
+        outFile.write(line)
