@@ -1,12 +1,12 @@
 
 
 class Fraction:
-    @classmethod
-    def gcd(cls, a, b):
+    @staticmethod
+    def gcd(a, b):
         if b == 0:
             return a
         else:
-            return cls.gcd(b, a % b)
+            return Fraction.gcd(b, a % b)
 
     def __init__(self, up=0, down=1):
         g = Fraction.gcd(up, down)
