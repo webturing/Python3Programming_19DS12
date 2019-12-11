@@ -1,13 +1,15 @@
-def gcd(a, b):
-    if b == 0:
-        return a
-    else:
-        return gcd(b, a % b)
 
 
 class Fraction:
+    @classmethod
+    def gcd(cls, a, b):
+        if b == 0:
+            return a
+        else:
+            return cls.gcd(b, a % b)
+
     def __init__(self, up=0, down=1):
-        g = gcd(up, down)
+        g = Fraction.gcd(up, down)
         up, down = up // g, down // g
         self.up, self.down = up, down
 
