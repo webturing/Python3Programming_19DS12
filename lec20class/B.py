@@ -1,6 +1,6 @@
 class Leader:
-    def __init__(self, name):
-        self.name = name
+    def __init__(self, _name):
+        self.name = _name
         self.count = 0
 
     def add(self):

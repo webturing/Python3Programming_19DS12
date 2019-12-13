@@ -1,15 +1,9 @@
+import math
 
 
 class Fraction:
-    @staticmethod
-    def gcd(a, b):
-        if b == 0:
-            return a
-        else:
-            return Fraction.gcd(b, a % b)
-
     def __init__(self, up=0, down=1):
-        g = Fraction.gcd(up, down)
+        g = math.gcd(up, down)
         up, down = up // g, down // g
         self.up, self.down = up, down
 

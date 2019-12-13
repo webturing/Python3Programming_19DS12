@@ -1,8 +1,8 @@
 class Pipe:
-    def __init__(self, length, diameter, number):
-        self.length = length
-        self.diameter = diameter
-        self.number = number
+    def __init__(self, _length, _diameter, _number):
+        self.length = _length
+        self.diameter = _diameter
+        self.number = _number
 
     def __lt__(self, other):
         if self.length != other.length:
