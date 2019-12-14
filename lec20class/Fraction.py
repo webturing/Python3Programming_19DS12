@@ -19,6 +19,6 @@ print(Fraction(2))
 print(Fraction(3, 6))
 print(Fraction(1, 3) + Fraction(1, 6))
 s = Fraction()
-for i in range(1, 11):
+for i in range(1, 101):
     s += Fraction(1, i)
 print(s)
