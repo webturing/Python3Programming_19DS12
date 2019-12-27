@@ -13,4 +13,4 @@ are   apples;   oranges   and   peaches   on   the   table.    输出：there   
 import re
 
 s = 'There  are   apples;   oranges   and   peaches   on   the   table.  '
-print(re.split('[^a-zA-Z ]+', s.lower().strip()))
+print(re.split('[^a-z]+', s.lower().strip()))
