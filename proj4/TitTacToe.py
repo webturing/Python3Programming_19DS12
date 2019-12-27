@@ -13,15 +13,14 @@ winchess = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0
 # 判断胜负
 def judge():
     print(chessboard)
-    print(winchess)
+
     w = 0
     for c in chessboard:
-        if c != '':
+        if c.strip():
             w += 1
     if w < 3: return
 
     for win in range(0, len(winchess)):
-
         if chessboard[winchess[win][0]] == chessboard[winchess[win][1]] == chessboard[winchess[win][2]] and chessboard[
             winchess[win][0]].strip():
             messagebox.showinfo(title='结果', message='%s胜' % chessboard[winchess[win][0]])
